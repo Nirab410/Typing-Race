@@ -1,0 +1,138 @@
+*{
+      font-family: "Racing sans one",sans-serif;
+}
+body{
+      background-color: #141111;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      color: white;
+      text-align: center;
+}
+
+h2{
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      margin: 0 0 10px 0;
+      
+}
+
+h3{
+      color: crimson;
+      font-size: 25px;
+}
+
+.btn{
+      background: linear-gradient(45deg, #ffffff, #302b63, #1900ff);
+      color: white;
+      padding: 15px 15px;
+      margin: 10px;
+      border: none;
+      font-size: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 15px rgba(76, 175, 80, 0.5),0 0 30px rgba(76, 175, 80, 0.4),0 0 45px rgba(76, 175, 80, 0.3);
+}
+
+.container{
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      position: relative;
+}
+
+.track {
+      background-image: url("attachment/START.jpg");
+      background-size: contain;       
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 400px;
+      max-width: 1360px;        
+      margin: 0;
+      position: relative;
+      overflow: hidden;
+}
+#car1, #car2{
+      position: absolute;
+      transition: left  0.9s  ease;
+}
+
+#car1 img, 
+#car2 img  {
+      height: 60px;
+      width: 100%;
+}
+
+#car1{
+      top: 20%;
+      left: -10%;
+}
+
+#car2{
+      bottom: 20%;
+      left: -10%;
+}
+
+
+#type-container{
+      background-color: #444;
+      border-radius: 10px;
+      margin: 25px;
+
+}
+
+#word-to-type{
+      font-size: 40px;
+}
+
+input{
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 30px;
+}
+
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+dialog h4, dialog h3 {
+  margin: 0;
+  padding: 10px 0;
+  color: #333;
+}
+
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+
+#powered-by {
+    position: fixed;
+    bottom: 8px;
+    right: 33px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    z-index: 9999;
+    opacity: 0.75;
+}
+
+.powered-text {
+    font-size: 20px;
+    color: #16bec4;
+}
+
+.nirab-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+    padding-left: 10px;
+}
+
